@@ -8,27 +8,25 @@
 
 body {
   background-color: var(--color-yellow);
-  font-family: "Figtree";
+  font-family: "Figtree", sans-serif;
   margin: 0;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  font-weight: 500;
+}
+
+* {
+  box-sizing: border-box;
 }
 
 .card {
   border: 1px solid var(--color-grey500);
   background-color: var(--color-white);
-  border-radius: 5%;
-  width: 300px;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-evenly;
-  align-items: center;
-  padding-left: 1.5rem;
-  padding-right: 1.5rem;
+  border-radius: 15px;
+  max-width: 300px;
+  padding: 1.5rem 1.5rem 1.5rem 1.5rem;
   transform: scale(0.85);
   box-shadow: 8px 8px 0px black;
 }
@@ -37,9 +35,8 @@ body {
   border: 5px solid var(--color-yellow);
   border-radius: 5px;
   color: var(--color-grey950);
-  font-weight: bold;
   background-color: var(--color-yellow);
-  font-size: 12px;
+  font-size: 0.75rem;
   font-weight: 800;
 }
 
@@ -48,7 +45,7 @@ body {
 }
 
 .content p {
-  font-size: 16px;
+  font-size: 1rem;
   font-weight: 100;
   color: var(--color-grey500);
   line-height: 1.5rem;
@@ -57,7 +54,7 @@ body {
 .content header {
   font-weight: 800;
   padding-top: 1rem;
-  font-size: 20px;
+  font-size: 1.25rem;
 }
 
 .content header:hover {
@@ -69,34 +66,22 @@ body {
   display: flex;
   justify-content: flex-start;
   align-items: center;
-  padding-bottom: 1.5rem;
 }
 
 .author-name {
-  display: inline;
-  font-weight: bold;
+  font-weight: 800;
   padding-left: 0.7rem;
-  font-size: 12px;
-  font-style: normal;
-}
-
-.image {
-  padding-bottom: 0.3rem;
+  font-size: 0.75rem;
 }
 
 .publish {
   padding-top: 1rem;
-  font-size: 12px;
+  font-size: 0.75rem;
 }
 
 .main-image {
-  border-radius: 5%;
-  padding-top: 1rem;
-  transform: scale(0.9);
-}
-
-img {
-  padding-top: 0.5rem;
+  border-radius: 15px;
+  width: 100%;
 }
 
 .attribution {
