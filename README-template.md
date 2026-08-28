@@ -17,6 +17,8 @@ This is a solution to the [Product preview card component challenge on Frontend 
 
 ## Overview
 
+This project is a solution to the Frontend Mentor Blog Preview Card challenge. The goal was to build a responsive blog prewview card that matched the designs provided.
+
 ### The challenge
 
 Users should be able to:
@@ -38,7 +40,7 @@ Users should be able to:
 
 ## My process
 
-I started with the mobile version and worked my way to the desktop version. Trying my best to keep in mind the responsiveness within the code. On the last project I did, I ended up making many things locked at certain widths and heights and really ended up making my life much much harder when it came to then making the desktop version look right. I was able to do so (on this last project) but it was a lot and felt like I basically had to redo it for desktop. However, with that information I kept that in mind and had a much better time this go around. With a lot of the changes only having to be made because the desktop version was different, as opposed to previous challenges were they were basically the same. This has given me more confidence.
+With all transparency, I am going back and writing this after improving everything. I did not fully understand what the README files were for when I originally did the challenge. However, after going back with a fresh set of eyes and new knowledge I decided to do it!
 
 ### Built with
 
