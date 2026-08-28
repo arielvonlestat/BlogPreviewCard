@@ -1,23 +1,19 @@
-# Frontend Mentor - Blog preview card solution
+# Frontend Mentor - Product preview card component solution
 
-This is a solution to the [Blog preview card challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/blog-preview-card-ckPaj01IcS). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
+This is a solution to the [Product preview card component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/product-preview-card-component-GO7UmttRfa). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
 
 ## Table of contents
 
-- [Overview](#overview)
-  - [The challenge](#the-challenge)
-  - [Screenshot](#screenshot)
-  - [Links](#links)
+- [The challenge](#the-challenge)
+- [Screenshot](#screenshot)
+- [Links](#links)
 - [My process](#my-process)
-  - [Built with](#built-with)
-  - [What I learned](#what-i-learned)
-  - [Continued development](#continued-development)
-  - [Useful resources](#useful-resources)
-  - [AI Collaboration](#ai-collaboration)
+- [Built with](#built-with)
+- [What I learned](#what-i-learned)
+- [Continued development](#continued-development)
+- [Useful resources](#useful-resources)
+- [AI Collaboration](#ai-collaboration)
 - [Author](#author)
-- [Acknowledgments](#acknowledgments)
-
-**Note: Delete this note and update the table of contents based on what sections you keep.**
 
 ## Overview
 
@@ -25,97 +21,72 @@ This is a solution to the [Blog preview card challenge on Frontend Mentor](https
 
 Users should be able to:
 
-- See hover and focus states for all interactive elements on the page
+- View the optimal layout depending on their device's screen size
+- See hover and focus states for interactive elements
 
 ### Screenshot
 
-![](./screenshot.jpg)
+![Mobile Challenge](BlogPreviewCardMobile.png)
 
-Add a screenshot of your solution. The easiest way to do this is to use Firefox to view your project, right-click the page and select "Take a Screenshot". You can choose either a full-height screenshot or a cropped one based on how long the page is. If it's very long, it might be best to crop it.
-
-Alternatively, you can use a tool like [FireShot](https://getfireshot.com/) to take the screenshot. FireShot has a free option, so you don't need to purchase it. 
-
-Then crop/optimize/edit your image however you like, add it to your project, and update the file path in the image above.
-
-**Note: Delete this note and the paragraphs above when you add your screenshot. If you prefer not to add a screenshot, feel free to remove this entire section.**
+![Desktop Challenge](BlogPreviewCardDesktop.png)
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Github URL: https://github.com/arielvonlestat/BlogPreviewCard
+
+- Live Site URL: https://arielvonlestat.github.io/BlogPreviewCard/
 
 ## My process
+
+I started with the mobile version and worked my way to the desktop version. Trying my best to keep in mind the responsiveness within the code. On the last project I did, I ended up making many things locked at certain widths and heights and really ended up making my life much much harder when it came to then making the desktop version look right. I was able to do so (on this last project) but it was a lot and felt like I basically had to redo it for desktop. However, with that information I kept that in mind and had a much better time this go around. With a lot of the changes only having to be made because the desktop version was different, as opposed to previous challenges were they were basically the same. This has given me more confidence.
 
 ### Built with
 
 - Semantic HTML5 markup
 - CSS custom properties
 - Flexbox
-- CSS Grid
 - Mobile-first workflow
-- [React](https://reactjs.org/) - JS library
-- [Next.js](https://nextjs.org/) - React framework
-- [Styled Components](https://styled-components.com/) - For styles
-
-**Note: These are just examples. Delete this note and replace the list above with your own choices**
+- VS-Code
 
 ### What I learned
 
-Use this section to recap over some of your major learnings while working through this project. Writing these out and providing code samples of areas you want to highlight is a great way to reinforce your own knowledge.
+I really cemented my learning in making a responsive website. As stated above I took a different approach for the last challenge and locked myself out of making things responsive and easy on the desktop version. Keeping that in mind for this one, I was able to make everything much more responsive and to cement how this is done in a more cohesive way. This also saved me a lot of time, which will be valueable in the future.
 
-To see how you can add code snippets, see below:
+I had seen on another's code project the following and decided to impliment it on my code this time. I will never go back to manually imputing colors, as this is the most brilliant thing to use. So easy to keep track of things and to put them within your code efficently.
 
-```html
-<h1>Some HTML code I'm proud of</h1>
-```
-```css
-.proud-of-this-css {
-  color: papayawhip;
+:root {
+--color-green500: hsl(158, 36%, 37%);
+--color-green700: hsl(158, 42%, 18%);
+--color-black: hsl(212, 21%, 14%);
+--color-grey: hsl(228, 12%, 48%);
+--color-cream: hsl(30, 38%, 92%);
+--color-white: hsl(0, 0%, 100%);
 }
-```
-```js
-const proudOfThisFunc = () => {
-  console.log('🎉')
-}
-```
-
-If you want more help with writing markdown, we'd recommend checking out [The Markdown Guide](https://www.markdownguide.org/) to learn more.
-
-**Note: Delete this note and the content within this section and replace with your own learnings.**
 
 ### Continued development
 
-Use this section to outline areas that you want to continue focusing on in future projects. These could be concepts you're still not completely comfortable with or techniques you found useful that you want to refine and perfect.
-
-**Note: Delete this note and the content within this section and replace with your own plans for continued development.**
+I think at this point I am ready to move on to learning javascript. I am by no means an expert at CSS but I feel a lot more confident in my skills now.
 
 ### Useful resources
 
-- [Example resource 1](https://www.example.com) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
-- [Example resource 2](https://www.example.com) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept.
+- [ChatGPT](https://www.chatgpt.com) - As much as i'd like to not admit it sometimes, it has been a huge resource for me. It has enabled me to talk things out directly as if I am doing so with a teacher. That being said, I am very careful in how I use it. I asked very direct, specific questions and only ask about overal concepts not how to directly do things. I have found this to be very successful. I gain enough information to understand and then accomplish the task on my own.
 
-**Note: Delete this note and replace the list above with resources that helped you during the challenge. These could come in handy for anyone viewing your solution or for yourself when you look back on this project in the future.**
+- [CSS Tools: Reset CSS](https://meyerweb.com/eric/tools/css/reset/) - I recently started to use this (over the past two challenges) and I find it to be very helpful. It allows me to start with a blank slate. In doing so I have noticed that I have less issues understanding why something is occuring because it's from scratch. I would highly recommend this!
 
 ### AI Collaboration
 
-Describe how you used AI tools (if any) during this project. This helps demonstrate your ability to work effectively with AI assistants.
-
 - What tools did you use (e.g., ChatGPT, Claude, GitHub Copilot)?
+
+  As mentioned above I used ChatGPT.
+
 - How did you use them (e.g., debugging, generating boilerplate, brainstorming solutions)?
+
+I am always very careful in the way that I use it. I do not want it doing the work for me and therefore I only ask it specific questions to understand better. Typically overall concepts, or generalized ideas. I am careful not to ask it to just completely do something for me as I do not feel like I learn that way. If it does give me more information than I want (which it has from time to time) then I spend a lot of time understanding why the answer or concept works and if it doesn't explain it in a way I can understand I asked questions to make sure I understand it.
+
 - What worked well? What didn't?
 
-**Note: Delete this note and the content above if you didn't use AI, or replace with your own experience.**
+It is great as an overall teacher when I have a specific question or a concept that I need to learn. However I have also caught it to be wrong on more than a few occasions which i've been proud of my abilities to realize that it was wrong but it is certainly something to be mindful of.
 
 ## Author
 
-- Website - [Add your name here](https://www.your-site.com)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
-- Twitter - [@yourusername](https://www.twitter.com/yourusername)
-
-**Note: Delete this note and add/remove/edit lines above based on what links you'd like to share.**
-
-## Acknowledgments
-
-This is where you can give a hat tip to anyone who helped you out on this project. Perhaps you worked in a team or got some inspiration from someone else's solution. This is the perfect place to give them some credit.
-
-**Note: Delete this note and edit this section's content as necessary. If you completed this challenge by yourself, feel free to delete this section entirely.**
+- Frontend Mentor - [ArielVonLestat](https://www.frontendmentor.io/profile/arielvonlestat)

@@ -34,12 +34,9 @@ body {
   align-items: center;
 }
 
-.learning-button {
-  padding-top: 1rem;
-}
-
 .main-content {
   padding-left: 1.5rem;
+  padding-top: 1rem;
 }
 
 .main-content p {
@@ -49,24 +46,26 @@ body {
   line-height: 1.5rem;
 }
 
-.main-content header {
+.main-content h1 {
   font-weight: 800;
   padding-top: 1rem;
   font-size: 1.25rem;
+  margin: 0;
 }
 
-.main-content header:hover {
+.main-content h1:hover {
   color: var(--color-yellow);
   cursor: pointer;
 }
 
-.main-content button {
+.main-content span {
   border: 5px solid var(--color-yellow);
   border-radius: 5px;
   color: var(--color-grey950);
   background-color: var(--color-yellow);
   font-size: 0.75rem;
   font-weight: 800;
+  padding: 0rem 0.2rem;
 }
 
 .author-image-name {
