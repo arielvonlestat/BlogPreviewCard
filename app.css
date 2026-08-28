@@ -25,9 +25,8 @@ body {
   border: 1px solid var(--color-grey500);
   background-color: var(--color-white);
   border-radius: 15px;
-  width: 325px;
-  height: 460px;
-  /* padding: 1.1rem 0 1.1rem 1.1rem; */
+  max-width: 325px;
+  min-height: 460px;
   box-shadow: 8px 8px 0px black;
   display: flex;
   flex-direction: column;
@@ -35,34 +34,33 @@ body {
   align-items: center;
 }
 
-.learning {
+.learning-button {
   padding-top: 1rem;
 }
 
-.content {
-  border-top: 
-  align-self: center;
+.main-content {
+  padding-left: 1.5rem;
 }
 
-.content p {
+.main-content p {
   font-size: 0.9rem;
   font-weight: 400;
   color: var(--color-grey500);
   line-height: 1.5rem;
 }
 
-.content header {
+.main-content header {
   font-weight: 800;
   padding-top: 1rem;
   font-size: 1.25rem;
 }
 
-.content header:hover {
+.main-content header:hover {
   color: var(--color-yellow);
   cursor: pointer;
 }
 
-.content button {
+.main-content button {
   border: 5px solid var(--color-yellow);
   border-radius: 5px;
   color: var(--color-grey950);
@@ -95,9 +93,12 @@ body {
   display: block;
 }
 
+footer {
+  padding-top: 2rem;
+}
+
 .attribution {
-  font-size: 0.6875rem;
-  text-align: center;
+  font-size: 0.7rem;
 }
 .attribution a {
   color: var(--color-blue);
