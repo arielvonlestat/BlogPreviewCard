@@ -64,7 +64,7 @@ body {
   color: var(--color-grey950);
   background-color: var(--color-yellow);
   font-size: 0.75rem;
-  font-weight: 650;
+  font-weight: 650px;
   padding: 0rem 0.2rem;
 }
 
@@ -82,14 +82,16 @@ body {
   font-style: italic;
 }
 
-.publish {
+time {
   padding-top: 1rem;
   font-size: 0.75rem;
+  display: block;
 }
 
 .main-image {
   border-radius: 15px;
-  width: 275px;
+  width: 100%;
+  max-width: 275px;
   height: auto;
   display: block;
 }
